@@ -26,7 +26,11 @@ TODO: how should we verify results?
 
 <details>
 <summary>What should I submit?</summary>
-TODO
+* Evaluator records: required
+* Trajectory upload: required (for SWE-bench it wasn’t originally required)
+* Screenshot: Optional
+* Open source: not required, but you get recognized
+* Verified: not required, but you get recognized
 </details>
 
 ## 📞 Contact
