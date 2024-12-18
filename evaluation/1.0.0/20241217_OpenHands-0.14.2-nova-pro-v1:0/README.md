@@ -45,7 +45,7 @@ Checkout [Github repo](https://github.com/All-Hands-AI/OpenHands) to start using
 | pm-copy-plane-issues-to-gitlab-image | 4 | 2 | 0.25 | 35 | 4.21 |
 | pm-distribute-information-image | 2 | 1 | 0.25 | 3 | 0.02 |
 | sde-copilot-arena-server-easy-add-suffix-image | 4 | 2 | 0.25 | 11 | 0.14 |
-| sde-report-unit-test-coverage-to-plane-image | 4 | 2 | 0.25 | 2 | 0.01 |
+| sde-report-unit-test-coverage-to-plane-image | 4 | 2 | 0.25 | 6 | 0.06 |
 | sde-run-linter-on-openhands-image | 2 | 1 | 0.25 | 6 | 0.06 |
 | pm-assign-issues-image | 5 | 2 | 0.20 | 15 | 0.32 |
 | hr-green-card-consultation-image | 3 | 1 | 0.17 | 2 | 0.01 |
@@ -220,7 +220,7 @@ Checkout [Github repo](https://github.com/All-Hands-AI/OpenHands) to start using
 
 **Overall Score:** 5.69%
 
-**Average Steps:** 19.57
+**Average Steps:** 19.59
 
 **Average Cost (USD):** 1.55
 
