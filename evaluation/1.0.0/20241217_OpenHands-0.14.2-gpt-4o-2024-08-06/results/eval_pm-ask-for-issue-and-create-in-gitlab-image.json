@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:93ea672c3eaf53fca06a9b831ed6d4db9d1181fea1877750734c60a7b6e0960a
-size 304
+{
+    "checkpoints": [
+        {
+            "total": 2,
+            "result": 0
+        },
+        {
+            "total": 1,
+            "result": 0
+        },
+        {
+            "total": 2,
+            "result": 0
+        }
+    ],
+    "final_score": {
+        "total": 5,
+        "result": 0
+    }
+}

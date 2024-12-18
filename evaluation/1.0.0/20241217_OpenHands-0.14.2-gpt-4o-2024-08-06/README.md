@@ -77,7 +77,7 @@ Checkout [Github repo](https://github.com/All-Hands-AI/OpenHands) to start using
 | pm-copy-plane-issues-to-gitlab-image | 4 | 2 | 0.25 | 10 | 0.66 |
 | pm-distribute-information-image | 2 | 1 | 0.25 | 15 | 1.11 |
 | sde-create-new-characters-image | 4 | 2 | 0.25 | 15 | 0.72 |
-| sde-report-unit-test-coverage-to-plane-image | 4 | 2 | 0.25 | 10 | 0.34 |
+| sde-report-unit-test-coverage-to-plane-image | 4 | 2 | 0.25 | 10 | 0.32 |
 | sde-run-linter-on-openhands-image | 2 | 1 | 0.25 | 8 | 0.20 |
 | hr-analyze-outing-bills-image | 7 | 3 | 0.21 | 11 | 0.58 |
 | hr-new-grad-job-description-3-image | 5 | 2 | 0.20 | 20 | 1.93 |
