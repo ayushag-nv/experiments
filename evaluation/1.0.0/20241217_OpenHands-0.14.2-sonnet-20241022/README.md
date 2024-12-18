@@ -114,7 +114,7 @@ Checkout [Github repo](https://github.com/All-Hands-AI/OpenHands) to start using
 | pm-distribute-information-image | 2 | 1 | 0.25 | 12 | 1.19 |
 | pm-monitor-new-bug-issues-image | 4 | 2 | 0.25 | 15 | 2.18 |
 | sde-create-new-characters-image | 4 | 2 | 0.25 | 10 | 0.36 |
-| sde-report-unit-test-coverage-to-plane-image | 4 | 2 | 0.25 | 8 | 0.45 |
+| sde-report-unit-test-coverage-to-plane-image | 4 | 2 | 0.25 | 8 | 0.44 |
 | sde-run-linter-on-openhands-image | 2 | 1 | 0.25 | 7 | 0.27 |
 | hr-analyze-outing-bills-image | 7 | 3 | 0.21 | 16 | 1.16 |
 | ds-calculate-spreadsheet-stats-image | 5 | 2 | 0.20 | 25 | 2.07 |
@@ -265,7 +265,6 @@ Checkout [Github repo](https://github.com/All-Hands-AI/OpenHands) to start using
 | Average Score for rocketchat | 34.68% |
 | Perfect Completions for owncloud | 7/70 (10.00%) |
 | Average Score for owncloud | 21.81% |
-
 
 # Details
 
