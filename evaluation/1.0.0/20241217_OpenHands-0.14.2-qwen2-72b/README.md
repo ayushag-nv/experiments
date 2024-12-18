@@ -59,7 +59,6 @@ Checkout [Github repo](https://github.com/All-Hands-AI/OpenHands) to start using
 | pm-send-notification-to-corresponding-user-image | 4 | 1 | 0.12 | 12 | 0.15 |
 | pm-update-sprint-cycles-image | 4 | 1 | 0.12 | 9 | 0.09 |
 | sde-create-sqlite-database-image | 8 | 2 | 0.12 | 8 | 0.09 |
-| sde-report-unit-test-coverage-to-plane-image | 4 | 1 | 0.12 | 35 | 0.41 |
 | ds-answer-spreadsheet-questions-image | 5 | 1 | 0.10 | 13 | 0.11 |
 | ds-calculate-spreadsheet-stats-image | 5 | 1 | 0.10 | 84 | 1.21 |
 | finance-find-signatories-image | 5 | 1 | 0.10 | 16 | 0.26 |
@@ -195,6 +194,7 @@ Checkout [Github repo](https://github.com/All-Hands-AI/OpenHands) to start using
 | sde-reply-community-issue-with-fixed-reply-image | 3 | 0 | 0.00 | 23 | 0.14 |
 | sde-repo_profile_pic-image | 3 | 0 | 0.00 | 90 | 1.32 |
 | sde-report-agent-repos-image | 2 | 0 | 0.00 | 36 | 0.33 |
+| sde-report-unit-test-coverage-to-plane-image | 4 | 0 | 0.00 | 36 | 0.33 |
 | sde-run-all-unit-test-image | 4 | 0 | 0.00 | 90 | 1.32 |
 | sde-run-janusgraph-image | 6 | 0 | 0.00 | 18 | 0.10 |
 | sde-run-linter-on-openhands-image | 2 | 0 | 0.00 | 90 | 1.32 |
@@ -218,7 +218,7 @@ Checkout [Github repo](https://github.com/All-Hands-AI/OpenHands) to start using
 
 **Perfect Completions:** 2/175 (1.14%)
 
-**Overall Score:** 4.30%
+**Overall Score:** 4.23%
 
 **Average Steps:** 23.70
 
@@ -232,14 +232,14 @@ Checkout [Github repo](https://github.com/All-Hands-AI/OpenHands) to start using
 | Highest Task Score | 100.00% |
 | Lowest Task Score | 0.00% |
 | Median Task Score | 0.00% |
-| Average Task Score | 4.30% |
+| Average Task Score | 4.23% |
 
 ## Statistics per Nature Category
 
 | Metric | Value |
 |---------|--------|
 | Perfect Completions for sde | 2/69 (2.90%) |
-| Average Score for sde | 3.86% |
+| Average Score for sde | 3.68% |
 | Perfect Completions for pm | 0/28 (0.00%) |
 | Average Score for pm | 7.44% |
 | Perfect Completions for ds | 0/14 (0.00%) |
@@ -258,9 +258,9 @@ Checkout [Github repo](https://github.com/All-Hands-AI/OpenHands) to start using
 | Metric | Value |
 |---------|--------|
 | Perfect Completions for gitlab | 1/71 (1.41%) |
-| Average Score for gitlab | 2.11% |
+| Average Score for gitlab | 1.94% |
 | Perfect Completions for plane | 1/17 (5.88%) |
-| Average Score for plane | 13.19% |
+| Average Score for plane | 12.45% |
 | Perfect Completions for rocketchat | 0/79 (0.00%) |
 | Average Score for rocketchat | 4.88% |
 | Perfect Completions for owncloud | 0/70 (0.00%) |
