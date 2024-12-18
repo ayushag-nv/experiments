@@ -87,7 +87,6 @@ Checkout [Github repo](https://github.com/All-Hands-AI/OpenHands) to start using
 | sde-add-wiki-page-image | 4 | 1 | 0.12 | 3 | 0.02 |
 | sde-debug-crashed-server-image | 8 | 2 | 0.12 | 61 | 3.17 |
 | sde-move-bustub-wiki-image | 4 | 1 | 0.12 | 14 | 0.79 |
-| sde-report-unit-test-coverage-to-plane-image | 4 | 1 | 0.12 | 8 | 0.09 |
 | sde-run-all-unit-test-image | 4 | 1 | 0.12 | 4 | 0.03 |
 | ds-answer-spreadsheet-questions-image | 5 | 1 | 0.10 | 27 | 0.22 |
 | ds-calculate-spreadsheet-stats-image | 5 | 1 | 0.10 | 24 | 0.42 |
@@ -203,6 +202,7 @@ Checkout [Github repo](https://github.com/All-Hands-AI/OpenHands) to start using
 | sde-pitch-idea-to-manager-image | 5 | 0 | 0.00 | 11 | 0.06 |
 | sde-repo_profile_pic-image | 3 | 0 | 0.00 | 2 | 0.01 |
 | sde-report-agent-repos-image | 2 | 0 | 0.00 | 2 | 0.01 |
+| sde-report-unit-test-coverage-to-plane-image | 4 | 0 | 0.00 | 8 | 0.10 |
 | sde-run-rising-wave-locally-image | 2 | 0 | 0.00 | 22 | 1.17 |
 | sde-sotopia-create-agent-image | 5 | 0 | 0.00 | 16 | 0.17 |
 | sde-sotopia-create-agent-wo-repo-image | 6 | 0 | 0.00 | 14 | 0.16 |
@@ -218,7 +218,7 @@ Checkout [Github repo](https://github.com/All-Hands-AI/OpenHands) to start using
 
 **Perfect Completions:** 12/175 (6.86%)
 
-**Overall Score:** 12.86%
+**Overall Score:** 12.79%
 
 **Average Steps:** 20.93
 
@@ -232,14 +232,14 @@ Checkout [Github repo](https://github.com/All-Hands-AI/OpenHands) to start using
 | Highest Task Score | 100.00% |
 | Lowest Task Score | 0.00% |
 | Median Task Score | 0.00% |
-| Average Task Score | 12.86% |
+| Average Task Score | 12.79% |
 
 ## Statistics per Nature Category
 
 | Metric | Value |
 |---------|--------|
 | Perfect Completions for sde | 8/69 (11.59%) |
-| Average Score for sde | 16.67% |
+| Average Score for sde | 16.49% |
 | Perfect Completions for pm | 2/28 (7.14%) |
 | Average Score for pm | 19.83% |
 | Perfect Completions for ds | 0/14 (0.00%) |
@@ -258,9 +258,9 @@ Checkout [Github repo](https://github.com/All-Hands-AI/OpenHands) to start using
 | Metric | Value |
 |---------|--------|
 | Perfect Completions for gitlab | 6/71 (8.45%) |
-| Average Score for gitlab | 14.44% |
+| Average Score for gitlab | 14.26% |
 | Perfect Completions for plane | 2/17 (11.76%) |
-| Average Score for plane | 22.39% |
+| Average Score for plane | 21.65% |
 | Perfect Completions for rocketchat | 4/79 (5.06%) |
 | Average Score for rocketchat | 12.06% |
 | Perfect Completions for owncloud | 0/70 (0.00%) |
