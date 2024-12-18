@@ -72,7 +72,7 @@ Checkout [Github repo](https://github.com/All-Hands-AI/OpenHands) to start using
 | sde-change-license-easy-image | 4 | 1 | 0.12 | 31 | 0.64 |
 | sde-copilot-arena-server-easy-add-suffix-image | 4 | 1 | 0.12 | 99 | 3.12 |
 | sde-create-sqlite-database-image | 8 | 2 | 0.12 | 11 | 0.18 |
-| sde-report-unit-test-coverage-to-plane-image | 4 | 1 | 0.12 | 0 | 0.00 |
+| sde-report-unit-test-coverage-to-plane-image | 4 | 1 | 0.12 | 6 | 0.06 |
 | ds-answer-spreadsheet-questions-image | 5 | 1 | 0.10 | 5 | 0.02 |
 | ds-calculate-spreadsheet-stats-image | 5 | 1 | 0.10 | 48 | 0.42 |
 | ds-organise-report-sus-data-image | 5 | 1 | 0.10 | 22 | 0.86 |
@@ -220,7 +220,7 @@ Checkout [Github repo](https://github.com/All-Hands-AI/OpenHands) to start using
 
 **Overall Score:** 6.53%
 
-**Average Steps:** 19.15
+**Average Steps:** 19.18
 
 **Average Cost (USD):** 0.83
 

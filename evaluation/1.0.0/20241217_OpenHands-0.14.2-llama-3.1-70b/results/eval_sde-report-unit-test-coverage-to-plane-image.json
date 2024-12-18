@@ -2,15 +2,15 @@
     "checkpoints": [
         {
             "total": 1,
-            "result": false
-        },
-        {
-            "total": 1,
-            "result": false
-        },
-        {
-            "total": 1,
             "result": true
+        },
+        {
+            "total": 1,
+            "result": false
+        },
+        {
+            "total": 1,
+            "result": false
         },
         {
             "total": 1,
