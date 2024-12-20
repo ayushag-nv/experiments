@@ -1,16 +1,27 @@
-# The Agent Company Experiments
+# TheAgentCompany Experiments
 This repository contains the trajectories and jsonl files for the experiments conducted by The Agent Company.
 
 The repository is organized as follows:
-TODO
+```
+experiments/
+├── evaluation/
+│ ├── 1.0.0/
+|   ├── <date>_<model>
+│   │ ├── README.md
+│   │ ├── results/<task_id>.json (Evaluator records, checkpoint Scores)
+│   │ ├── screenshots/<task_id>/<step>.png (Screenshot Logs)
+│   │ └── trajectories/<task_id>.json.gz (Compressed Agent Trajectries)
+│   └── ...
+```
+<details>
+<summary>More about how the repository is organized</summary>
+The `evaluation/` folder is organized such that the top level directories are different versions of TheAgentCompany (currently only 1.0.0).
+Data for models that were run on that corresponding version are included as subfolders.
+Each subfolder contains all the evaluation results for each task with detailed evaluator records, checkpoint scores, agent execution logs, and screenshots (if applicable, e.g. using browser).
+These logs are publicly accessible and meant to enable greater reproducibility and transparency of the experiments.
+</details>
 
 ## 🏆 Leaderboard Participation
-
-> NEXT LEADERBOARD UPDATE: 12/22/2024
-> 
-> SUBMISSION CUTOFF: 12/20/2024
->
-> The leaderboard will be updated at a monthly interval (once every 4 weeks). If you are planning to submit, please make sure your submission is in *4 days before* the submission deadline
 
 If you are interested in submitting your model to the [The Agent Company Leaderboard](https://the-agent-company.com/), please do the following:
 1. Fork this repository.
@@ -27,7 +38,7 @@ TODO: how should we verify results?
 <details>
 <summary>What should I submit?</summary>
 * Evaluator records: required
-* Trajectory upload: required (for SWE-bench it wasn’t originally required)
+* Trajectory upload: required 
 * Screenshot: Optional
 * Open source: not required, but you get recognized
 * Verified: not required, but you get recognized
