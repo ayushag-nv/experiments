@@ -26,14 +26,22 @@ These logs are publicly accessible and meant to enable greater reproducibility a
 If you are interested in submitting your model to the [The Agent Company Leaderboard](https://the-agent-company.com/), please do the following:
 1. Fork this repository.
 2. Clone your fork.
-3. TODO
+3. Run evaluation and submit the results.
 4. Within the folder, please include the following **required** assets:
+- trajectories in json or json.gz format
+- eval*.json, one for each task
+- README.md with the model name, version, result summary, and any other relevant information
 5. Create a pull request to this repository with the new folder.
 
-TODO: evaluation tutorial
+Please check out this [doc](https://github.com/TheAgentCompany/TheAgentCompany?tab=readme-ov-file#quick-start) to run evaluation.
 
 ## ✅ Result Verification
-TODO: how should we verify results?
+
+If you are interested in receiving the "verified" checkmark ✓ on your submission, please do the following:
+
+1. Create an issue
+2. In the issue, provide us instructions on how to run your model on TheAgentCompany.
+3. We will run your model on a random subset of TheAgentCompany and verify the results.
 
 <details>
 <summary>What should I submit?</summary>
