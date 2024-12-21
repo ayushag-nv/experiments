@@ -28,8 +28,10 @@ def compress_json_files(directory="."):
             gz_file = json_file + '.gz'
             
             # Write the compressed file
-            with gzip.open(gz_file, 'wt', encoding='UTF-8') as f:
-                json.dump(data, f)
+            with gzip.open(gz_file, 'wb') as f:
+                # Convert JSON to string and encode to bytes before writing
+                json_str = json.dumps(data)
+                f.write(json_str.encode('utf-8'))
             
             # Get file sizes for comparison
             original_size = os.path.getsize(json_file)
@@ -42,7 +44,7 @@ def compress_json_files(directory="."):
             print(f"Space savings: {savings:.1f}%\n")
             
             # Optionally, remove the original file
-            # os.remove(json_file)
+            os.remove(json_file)
             
         except json.JSONDecodeError:
             print(f"Error: {json_file} is not a valid JSON file")
