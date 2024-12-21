@@ -43,15 +43,6 @@ If you are interested in receiving the "verified" checkmark ✓ on your submissi
 2. In the issue, provide us instructions on how to run your model on TheAgentCompany.
 3. We will run your model on a random subset of TheAgentCompany and verify the results.
 
-<details>
-<summary>What should I submit?</summary>
-* Evaluator records: required
-* Trajectory upload: required 
-* Screenshot: Optional
-* Open source: not required, but you get recognized
-* Verified: not required, but you get recognized
-</details>
-
 ## 📞 Contact
 Questions? Please create an issue. Otherwise, you can also contact fangzhex@cs.cmu.edu, yufans@alumni.cmu.edu, boxuanli@alumni.cmu.edu
 
