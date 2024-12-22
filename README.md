@@ -25,7 +25,7 @@ These logs are publicly accessible and meant to enable greater reproducibility a
 
 ## 🏆 Leaderboard Participation
 
-If you are interested in submitting your model to the [The Agent Company Leaderboard](https://the-agent-company.com/), please do the following:
+If you are interested in submitting your model to the [The Agent Company Leaderboard](https://the-agent-company.com/#/leaderboard), please do the following:
 1. Fork this repository.
 1. Clone your fork.
 1. Run evaluation and submit the results, under the version that you evaluate on (currently there's only 1.0.0), create a new folder with the submission date and the model name (e.g. 20241217_OpenHands-0.14.2-gemini-1.5-pro).
