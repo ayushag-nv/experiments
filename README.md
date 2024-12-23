@@ -13,15 +13,14 @@ experiments/
 │   │ └── trajectories/<task_id>.json.gz (Compressed Agent Trajectries)
 │   └── ...
 ```
-<details>
-<summary>More about how the repository is organized</summary>
+
 The `evaluation/` folder is organized such that the top level directories are different versions of TheAgentCompany (currently only 1.0.0).
 
 Data for models that were run on that corresponding version are included as subfolders.
 Each subfolder contains all the evaluation results for each task with detailed evaluator records, checkpoint scores, agent execution logs, and screenshots (if applicable, e.g. using browser).
 
 These logs are publicly accessible and meant to enable greater reproducibility and transparency of the experiments.
-</details>
+
 
 ## 🏆 Leaderboard Participation
 
