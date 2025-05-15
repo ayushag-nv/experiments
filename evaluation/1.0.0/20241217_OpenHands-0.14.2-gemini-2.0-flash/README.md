@@ -222,7 +222,7 @@ Checkout [Github repo](https://github.com/All-Hands-AI/OpenHands) to start using
 
 **Average Steps:** 39.85
 
-**Average Cost (USD):** 0.79
+**Average Cost (USD):** 0.58
 
 
 ## Statistics
