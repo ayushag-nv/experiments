@@ -1,0 +1,1 @@
+[{"user": "Error in run_society, please check the error message in assistant response", "assistant": "Execution of function extract_document_content failed with arguments () and {'document_path': 'http://the-agent-company.com:8092/Documents/Admin/office_sales_chat_history.jpg'}. Error: cannot identify image file <_io.BytesIO object at 0x7b0725fec950>", "tool_calls": []}]
