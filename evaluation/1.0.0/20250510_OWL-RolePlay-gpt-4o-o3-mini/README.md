@@ -25,7 +25,7 @@ Our vision is to revolutionize how AI agents collaborate to solve real-world tas
 
 *Sorted by score (⭐ indicates perfect completion)*
 
-| Filename | Total | Result | Score | rounds | Cost |
+| Filename | Total | Result | Score | Rounds[1] | Cost[2] |
 |----------|--------|---------|-------|-------|------|
 | hr-get-valid-password | 4 | 4 | 1.00 ⭐ | 5 | 0.14 |
 | hr-make-slides-introduce-leadership | 5 | 5 | 1.00 ⭐ | 2 | 0.04 |
@@ -211,10 +211,13 @@ Our vision is to revolutionize how AI agents collaborate to solve real-world tas
 
 **Overall Score:** 11.04%
 
-**Average rounds:** 5.76
+**Average rounds[1]:** 5.76
 
-**Average Cost (USD):** 0.18
+**Average Cost[2] (USD):** 0.18
 
+[1] Within each round, an agent can issue multiple LLM calls. The exact number of LLM calls is not tracked.
+
+[2] Cost might have been underestimated, see [this issue](https://github.com/camel-ai/owl/issues/531).
 
 ## Statistics
 
