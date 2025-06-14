@@ -1,0 +1,12 @@
+{
+    "checkpoints": [
+        {
+            "total": 4,
+            "result": 2
+        }
+    ],
+    "final_score": {
+        "total": 4,
+        "result": 2
+    }
+}
