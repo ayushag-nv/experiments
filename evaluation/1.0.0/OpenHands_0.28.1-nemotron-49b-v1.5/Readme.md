@@ -11,6 +11,7 @@
 | sde-change-license-hard-image | 3 | 3 | 1.00 ⭐ | 21 | 0.00 |
 | sde-close-an-issue-image | 2 | 2 | 1.00 ⭐ | 7 | 0.00 |
 | sde-copilot-arena-server-setup-image | 7 | 7 | 1.00 ⭐ | 14 | 0.00 |
+| sde-copy-issues-to-plane-image | 2 | 2 | 1.00 ⭐ | 32 | 0.00 |
 | sde-install-go-image | 2 | 2 | 1.00 ⭐ | 4 | 0.00 |
 | sde-install-openjdk-image | 2 | 2 | 1.00 ⭐ | 4 | 0.00 |
 | sde-sync-from-origin-repo-image | 1 | 1 | 1.00 ⭐ | 10 | 0.00 |
@@ -62,6 +63,7 @@
 | pm-update-sprint-cycles-image | 4 | 1 | 0.12 | 3 | 0.00 |
 | sde-copilot-arena-server-easy-add-suffix-image | 4 | 1 | 0.12 | 81 | 0.00 |
 | sde-create-new-characters-image | 4 | 1 | 0.12 | 5 | 0.00 |
+| sde-report-unit-test-coverage-to-plane-image | 4 | 1 | 0.12 | 15 | 0.00 |
 | sde-run-all-unit-test-image | 4 | 1 | 0.12 | 17 | 0.00 |
 | ds-answer-spreadsheet-questions-image | 5 | 1 | 0.10 | 21 | 0.00 |
 | ds-calculate-spreadsheet-stats-image | 5 | 1 | 0.10 | 14 | 0.00 |
@@ -128,6 +130,7 @@
 | ml-generate-gradcam-image | 4 | 0 | 0.00 | 5 | 0.00 |
 | ml-grade-exam-image | 8 | 0 | 0.00 | 19 | 0.00 |
 | pm-ask-for-issue-and-create-in-gitlab-image | 5 | 0 | 0.00 | 9 | 0.00 |
+| pm-ask-issue-assignee-for-issue-status-and-update-in-plane-image | 3 | 0 | 0.00 | 6 | 0.00 |
 | pm-create-channel-message-medium-image | 6 | 0 | 0.00 | 2 | 0.00 |
 | pm-create-plane-issue-image | 2 | 0 | 0.00 | 6 | 0.00 |
 | pm-monitor-new-bug-issues-image | 4 | 0 | 0.00 | 5 | 0.00 |
@@ -160,6 +163,7 @@
 | sde-find-api-image | 4 | 0 | 0.00 | 3 | 0.00 |
 | sde-fix-factual-mistake-image | 3 | 0 | 0.00 | 5 | 0.00 |
 | sde-implement-buffer-pool-manager-bustub-image | 12 | 0 | 0.00 | 37 | 0.00 |
+| sde-implement-covering-index-in-janusgraph-image | 3 | 0 | 0.00 | 28 | 0.00 |
 | sde-implement-hyperloglog-image | 6 | 0 | 0.00 | 8 | 0.00 |
 | sde-implement-raft-in-go-image | 10 | 0 | 0.00 | 35 | 0.00 |
 | sde-issue-label-management-image | 1 | 0 | 0.00 | 10 | 0.00 |
@@ -178,13 +182,13 @@
 
 ## Summary
 
-**Tasks Evaluated:** 169
+**Tasks Evaluated:** 173
 
-**Perfect Completions:** 8/169 (4.73%)
+**Perfect Completions:** 9/173 (5.20%)
 
-**Overall Score:** 11.77%
+**Overall Score:** 12.15%
 
-**Average Steps:** 11.51
+**Average Steps:** 11.72
 
 **Average Cost (USD):** 0.00
 
@@ -196,16 +200,16 @@
 | Highest Task Score | 100.00% |
 | Lowest Task Score | 0.00% |
 | Median Task Score | 0.00% |
-| Average Task Score | 11.77% |
+| Average Task Score | 12.15% |
 
 ## Statistics per Nature Category
 
 | Metric | Value |
 |---------|--------|
-| Perfect Completions for sde | 6 (9.38%) |
-| Average Score for sde | 15.77% |
-| Perfect Completions for pm | 1 (3.70%) |
-| Average Score for pm | 17.66% |
+| Perfect Completions for sde | 7 (10.45%) |
+| Average Score for sde | 16.75% |
+| Perfect Completions for pm | 1 (3.57%) |
+| Average Score for pm | 17.03% |
 | Perfect Completions for ds | 1 (7.14%) |
 | Average Score for ds | 10.42% |
 | Perfect Completions for admin | 0 (0.00%) |
@@ -221,11 +225,11 @@
 
 | Metric | Value |
 |---------|--------|
-| Perfect Completions for gitlab | 4 (5.88%) |
-| Average Score for gitlab | 13.78% |
-| Perfect Completions for plane | 0 (0.00%) |
-| Average Score for plane | 10.81% |
-| Perfect Completions for rocketchat | 1 (1.30%) |
-| Average Score for rocketchat | 8.59% |
+| Perfect Completions for gitlab | 5 (7.04%) |
+| Average Score for gitlab | 14.78% |
+| Perfect Completions for plane | 1 (5.88%) |
+| Average Score for plane | 15.52% |
+| Perfect Completions for rocketchat | 1 (1.28%) |
+| Average Score for rocketchat | 8.48% |
 | Perfect Completions for owncloud | 0 (0.00%) |
 | Average Score for owncloud | 5.80% |
