@@ -17,6 +17,7 @@ if __name__ == "__main__":
         if dir_name == reference_dir_name:
             continue
         
+        print(f"Processing {dir_name}")
         base_dir = os.path.join(eval_dir, dir_name)
         results_dir = os.path.join(base_dir, "results")
         
@@ -26,9 +27,9 @@ if __name__ == "__main__":
 
         readme_file = os.path.join(base_dir, "README.md")
         
-        os.system(f"python3 {summarize_results_script} {results_dir}")# >> {readme_file}")
+        os.system(f"python3 {summarize_results_script} {results_dir} >> {readme_file}")
         
-        
+        #break
 
 
         

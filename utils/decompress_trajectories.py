@@ -3,6 +3,7 @@ import sys
 import gzip
 import json
 import glob
+import shutil
 
 def decompress_json_files(directory="."):
     """
@@ -53,5 +54,23 @@ def decompress_json_files(directory="."):
 
 if __name__ == "__main__":
     # Use directory from command line argument if provided, otherwise use current directory
-    directory = sys.argv[1] if len(sys.argv) > 1 else "."
-    decompress_json_files(directory)
+    base_dir = sys.argv[1]
+
+    reference_dir_name = "OpenHands_0.28.1-nemotron-49b-v1.5"
+
+    for dir_name in os.listdir(base_dir):
+        if dir_name == reference_dir_name:  
+            print(f"Skipping {dir_name}")
+            continue
+
+        traj_dir = os.path.join(base_dir, dir_name, "trajectories")
+        decompress_json_files(traj_dir)
+
+
+        # copy traj files to results directory
+        for file in os.listdir(traj_dir):
+            if file.endswith(".json"):
+                shutil.copy(os.path.join(traj_dir, file), os.path.join(base_dir, dir_name, "results", file))
+
+
+    
