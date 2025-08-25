@@ -1,20 +1,11 @@
 
-<div align="center">
-  <h1 align="center">OpenHands-Versa: Coding Agents with Multimodal Browsing are Generalist Problem Solvers</h1>
-  <img src="https://raw.githubusercontent.com/adityasoni9998/OpenHands-Versa/main/docs/static/img/OpenHands-Versa.png" width="900">
-</div>
-
-OpenHands-Versa is a versatilte, generalist, multimodal agent built on top of the popular OpenHands framework. This agent addresses the crucial challenge of generalizability faced by several prior agentic frameworks. We augment OpenHands with more capabilities like multimodal browsing, multimodal document understanding and web search. Check out our [paper](https://arxiv.org/abs/2506.03011) for more details about our work!
-
-OpenHands-Versa is available open-source for future research and is also integrated into the upstream [OpenHands](https://github.com/all-Hands-AI/OpenHands/) repository. This submission corresponds to the version of OpenHands-Versa reported in our original research paper. Our code and experimental scripts are available open-source [here](https://github.com/adityasoni9998/OpenHands-Versa).
-
-# Evaluation Results Report (Claude-3.7-Sonnet)
+# Evaluation Results Report
 
 ## Results per File
 
 *Sorted by score (⭐ indicates perfect completion)*
 
-| Filename | Total | Result | Score | Steps | Cost (assuming no prompt caching)|
+| Filename | Total | Result | Score | Steps | Cost |
 |----------|--------|---------|-------|-------|------|
 | admin-check-employees-budget-and-reply-2-image | 4 | 4 | 1.00 ⭐ | 57 | 2.81 |
 | ds-sql-exercise-image | 6 | 6 | 1.00 ⭐ | 15 | 0.35 |
@@ -42,7 +33,7 @@ OpenHands-Versa is available open-source for future research and is also integra
 | sde-add-wiki-page-image | 4 | 4 | 1.00 ⭐ | 23 | 1.06 |
 | sde-change-branch-policy-image | 2 | 2 | 1.00 ⭐ | 11 | 0.51 |
 | sde-change-license-easy-image | 4 | 4 | 1.00 ⭐ | 25 | 2.51 |
-| sde-collect-open-issues-image | 3 | 3 | 1.00 ⭐ | 1 | 0.02 |
+| sde-collect-open-issues-image | 3 | 3 | 1.00 ⭐ | 8 | 0.27 |
 | sde-copilot-arena-server-easy-add-suffix-image | 4 | 4 | 1.00 ⭐ | 27 | 2.76 |
 | sde-copilot-arena-server-new-endpoint-image | 9 | 9 | 1.00 ⭐ | 18 | 1.69 |
 | sde-copilot-arena-server-setup-image | 7 | 7 | 1.00 ⭐ | 28 | 2.04 |
@@ -184,25 +175,23 @@ OpenHands-Versa is available open-source for future research and is also integra
 | sde-create-commit-table-for-all-gitlab-users-image | 6 | 0 | 0.00 | 32 | 2.51 |
 | sde-create-new-gitlab-project-logo-image | 3 | 0 | 0.00 | 54 | 2.97 |
 | sde-create-new-release-image | 2 | 0 | 0.00 | 12 | 0.53 |
-| sde-debug-crashed-server-image | 8 | 0 | 0.00 | 90 | 11.31 |
 | sde-delete-all-project-under-plane-image | 1 | 0 | 0.00 | 89 | 9.89 |
 | sde-find-answer-in-codebase-3-image | 5 | 0 | 0.00 | 90 | 5.48 |
 | sde-implement-covering-index-in-janusgraph-image | 3 | 0 | 0.00 | 90 | 18.15 |
 | sde-migrate-package-manager-image | 8 | 0 | 0.00 | 36 | 2.32 |
-| sde-run-rising-wave-locally-image | 2 | 0 | 0.00 | 90 | 5.55 |
 | sde-sotopia-create-agent-wo-repo-image | 6 | 0 | 0.00 | 23 | 1.60 |
 
 ## Summary
 
-**Tasks Evaluated:** 175
+**Tasks Evaluated:** 173
 
-**Perfect Completions:** 54/175 (30.86%)
+**Perfect Completions:** 54/173 (31.21%)
 
-**Overall Score:** 40.18%
+**Overall Score:** 40.64%
 
-**Average Steps:** 52.73
+**Average Steps:** 53.02
 
-**Average Cost (USD):** 3.70
+**Average Cost (USD):** 3.72
 
 
 ## Statistics
@@ -212,23 +201,36 @@ OpenHands-Versa is available open-source for future research and is also integra
 | Highest Task Score | 100.00% |
 | Lowest Task Score | 0.00% |
 | Median Task Score | 25.00% |
-| Average Task Score | 40.18% |
+| Average Task Score | 40.64% |
 
 ## Statistics per Nature Category
 
 | Metric | Value |
 |---------|--------|
-| Perfect Completions for sde | 31/69 (44.93%) |
-| Average Score for sde | 51.83% |
-| Perfect Completions for pm | 12/28 (42.86%) |
+| Perfect Completions for sde | 31 (46.27%) |
+| Average Score for sde | 53.38% |
+| Perfect Completions for pm | 12 (42.86%) |
 | Average Score for pm | 55.68% |
-| Perfect Completions for ds | 1/14 (7.14%) |
+| Perfect Completions for ds | 1 (7.14%) |
 | Average Score for ds | 16.13% |
-| Perfect Completions for admin | 1/15 (6.67%) |
+| Perfect Completions for admin | 1 (6.67%) |
 | Average Score for admin | 20.08% |
-| Perfect Completions for hr | 8/29 (27.59%) |
+| Perfect Completions for hr | 8 (27.59%) |
 | Average Score for hr | 35.67% |
-| Perfect Completions for finance | 0/12 (0.00%) |
+| Perfect Completions for finance | 0 (0.00%) |
 | Average Score for finance | 13.89% |
-| Perfect Completions for other | 1/8 (12.50%) |
+| Perfect Completions for other | 1 (12.50%) |
 | Average Score for other | 20.99% |
+
+## Statistics per Service Category
+
+| Metric | Value |
+|---------|--------|
+| Perfect Completions for gitlab | 31 (43.66%) |
+| Average Score for gitlab | 52.19% |
+| Perfect Completions for plane | 6 (35.29%) |
+| Average Score for plane | 45.93% |
+| Perfect Completions for rocketchat | 23 (29.49%) |
+| Average Score for rocketchat | 41.47% |
+| Perfect Completions for owncloud | 6 (8.70%) |
+| Average Score for owncloud | 17.83% |
